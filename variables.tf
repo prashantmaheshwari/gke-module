@@ -1,8 +1,3 @@
-variable "project_id" {
-  description = "The project ID to deploy resources into"
-  type        = string
-}
-
 variable "zone" {
   description = "The zone name for zonal cluster"
   type        = string
