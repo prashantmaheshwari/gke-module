@@ -34,11 +34,6 @@ variable "master_ipv4_cidr_block" {
   type        = string
 }
 
-variable "subnet_cidr" {
-  description = "The CIDR range of the subnet"
-  type        = string
-}
-
 variable "node_pool_name" {
   description = "The name of the node pool"
   type        = string
@@ -64,10 +59,6 @@ variable "node_pool_node_count" {
   type        = number
 }
 
-variable "node_pool_max_node_count" {
-  description = "The maximum number of nodes in the node pool"
-  type        = number
-}
 
 variable "node_pool_labels" {
   description = "Labels to be assigned to nodes in the node pool"
